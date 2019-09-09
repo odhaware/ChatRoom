@@ -8,7 +8,7 @@ User.prototype = {
         this.chatroom.send(message, this, to);
     },
     recieve: function (message, from) {
-        console.log(`${from.name} to ${this.name}:${message}`);
+        console.log(`${from.name} to ${this.name}: ${message}`);
     }
 }
 
